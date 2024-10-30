@@ -1,0 +1,224 @@
+msgid ""
+msgstr ""
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Project-Id-Version: Comment Blacklist Updater\n"
+"POT-Creation-Date: 2019-02-17 20:11+0100\n"
+"PO-Revision-Date: 2019-02-18 10:45+0100\n"
+"Language-Team: Ramon <marketing@apasionados.es>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.2.1\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-Flags-xgettext: --add-comments=translators:\n"
+"X-Poedit-WPHeader: comment-blacklist-updater.php\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"Last-Translator: Ramon <marketing@apasionados.es>\n"
+"Language: es_ES\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+
+#: comment-blacklist-updater.php:94 comment-blacklist-updater.php:104
+msgid "Blacklist Source"
+msgstr "Fuente de la lista negra"
+
+#: comment-blacklist-updater.php:95 comment-blacklist-updater.php:254
+msgid "Local Blacklist"
+msgstr "Lista negra local"
+
+#: comment-blacklist-updater.php:96 comment-blacklist-updater.php:265
+msgid "Excluded Terms"
+msgstr "Términos excluidos"
+
+#: comment-blacklist-updater.php:107
+msgid ""
+"Data from the sources below will be loaded into the comment blacklist "
+"automatically."
+msgstr ""
+"Los datos de las fuentes siguientes se cargan automáticamente en la lista "
+"negra de comentarios."
+
+#: comment-blacklist-updater.php:108
+msgid "Settings added by the <strong>Comment Blacklist Updater</strong> plugin"
+msgstr ""
+"Ajustes añadidos por el plugin <strong>Comment Blacklist Updater</strong>"
+
+#: comment-blacklist-updater.php:113
+msgid "There is a local blacklist file at: "
+msgstr "Existe una lista negra local en: "
+
+#: comment-blacklist-updater.php:115
+msgid "There is no local blacklist at: "
+msgstr "No existe una lista negra local en: "
+
+#: comment-blacklist-updater.php:117
+msgid ""
+"If you want to include a <strong>local blacklist</strong> for the site, you "
+"can upload a blacklist.txt file to the UPLOADS folder and it will also be "
+"taken into account. The blacklist.txt file has to be in the root of the "
+"UPLOADS folder; it will not be recognized if it's for example in /"
+"uploads/2025/12/ and the file has to be accesible via http/https (if the "
+"access to the file is protected it can't be used)."
+msgstr ""
+"Si queires incluir una lista negra <strong>local</strong> para el sitio web, "
+"puedes cargar un archivo blacklist. txt en la carpeta UPLOADS y también se "
+"tendrá en cuenta. El archivo blacklist. txt tiene que estar en la raíz de la "
+"carpeta UPLOADS; no se usará si por ejemplo está en /uploads/2025/12/, "
+"ademñas el archivo tiene que estar accesible a través de http/https (si el "
+"acceso al archivo está protegido no se puede utilizar)."
+
+#: comment-blacklist-updater.php:124
+msgid ""
+"Do you want to use the <strong>blacklist of <a href=\"http://www.splorp.com/"
+"\" target=\"_blank\">Grant Hutchinson</a></strong> which is maintained on <a "
+"href=\"https://github.com/splorp/wordpress-comment-blacklist/\">Github</a> "
+"(check if you want to use it)?"
+msgstr ""
+"¿Quieres usar la <strong>lista negra de <a href=\"http://www.splorp.com/\" "
+"target=\"_blank\">Grant Hutchinson</a></strong> que se mantiene en <a href="
+"\"https://github.com/splorp/wordpress-comment-blacklist/\">Github</a> (marca "
+"la casilla si quieres usarla)?"
+
+#: comment-blacklist-updater.php:125
+msgid ""
+"Please keep in mind that if there is no other blacklist source defined, this "
+"will be used as default, even if it's not selected."
+msgstr ""
+"Por favor, ten en cuenta que si no hay ninguna otra lista negra configurada, "
+"esta se utilizará como predeterminada, incluso si no está seleccionada."
+
+#: comment-blacklist-updater.php:126
+msgid ""
+"If you want to <strong>use another blacklist</strong>, please paste the URL "
+"here: "
+msgstr ""
+"Si quieres <strong>utilizar otra lista negra</strong>, por favor pega la URL "
+"aquí: "
+
+#: comment-blacklist-updater.php:146
+msgid ""
+"The URL looks ok (please keep in mind that here we don't check if it exists, "
+"just if the URL looks ok)."
+msgstr ""
+"La URL parece correcta (por favor ten en cuenta que aquí no comprobamos si "
+"existe, sólo si la URL parece correcta)."
+
+#: comment-blacklist-updater.php:148
+msgid "The URL doesn't seem to be valid. Please check the URL."
+msgstr "La URL no parece ser válida. Por favor, comprueba la URL."
+
+#: comment-blacklist-updater.php:155
+msgid ""
+"The \"rkv_cblm_replace_blacklist_sources\" function exists so there is done "
+"some filtering on the blacklist sources. Please check your functions.php to "
+"see if the function adds another blacklist or replaces all of them"
+msgstr ""
+"La función \"rkv_cblm_replace_blacklist_sources\" existe y entonces se está "
+"haciendo algún filtrado en las fuentes de las listas negras. Por favor, "
+"comprueba tu functions. php para ver si la función agrega otra lista negra o "
+"reemplaza todas ellas"
+
+#: comment-blacklist-updater.php:157
+msgid ""
+"We can't find the \"rkv_cblm_replace_blacklist_sources\" function on your "
+"WordPress installation."
+msgstr ""
+"No hemos encontrado la función \"rkv_cblm_replace_blacklist_sources\" en tu "
+"instalación de WordPress."
+
+#: comment-blacklist-updater.php:159
+msgid ""
+"P.D. You can also use the <strong>filter \"cblm_sources\"</strong> to "
+"replace all the blacklists or to add more. If you replace all blacklists "
+"with the filter, the above settings will be ignored."
+msgstr ""
+"P.D. También puedes utilizar el <strong>filtro \"cblm_sources\"</strong> "
+"para sustituir todas las listas negras o agregar más. Si reemplazas todas "
+"las listas negras con el filtro, se ignorarán los ajustes anteriores."
+
+#: comment-blacklist-updater.php:161
+msgid ""
+"These are the blacklist sources that are used to update the COMMENT BLACKLIST"
+msgstr ""
+"Estas son las fuentes de la lista negra que se utilizan para actualizar la "
+"LISTA NEGRA DE COMENTARIOS"
+
+#: comment-blacklist-updater.php:164
+msgid "No blacklist sources have been defined."
+msgstr "No se han definido fuentes de lista negra."
+
+#: comment-blacklist-updater.php:194 comment-blacklist-updater.php:229
+msgid "Blacklist source updated today"
+msgstr "Fuente de la lista negra actualizada hoy"
+
+#: comment-blacklist-updater.php:196 comment-blacklist-updater.php:231
+msgid "Blacklist source updated on"
+msgstr "Fuente de la lista negra actualizada el"
+
+#: comment-blacklist-updater.php:198 comment-blacklist-updater.php:235
+#: comment-blacklist-updater.php:237
+msgid "View external source"
+msgstr "Ver fuente externa"
+
+#: comment-blacklist-updater.php:224 comment-blacklist-updater.php:225
+msgid "UNKNOWN"
+msgstr "DESCONOCIDO"
+
+#: comment-blacklist-updater.php:248
+msgid "Blacklist updated on"
+msgstr "Lista negra actualizada el"
+
+#: comment-blacklist-updater.php:248
+msgid "Automatic updates are performed every 24 hours"
+msgstr "Las actualizaciones automáticas se realizan cada 24 horas"
+
+#: comment-blacklist-updater.php:248
+msgid "Next automatic update will be on"
+msgstr "La próxima actualización automática se relizará"
+
+#: comment-blacklist-updater.php:248
+msgid "If you want you can run a manual update now"
+msgstr "Si lo desea, puede ejecutar una actualización manual ahora"
+
+#: comment-blacklist-updater.php:249
+msgid "Run manual update"
+msgstr "Ejecutar actualización manual"
+
+#: comment-blacklist-updater.php:257
+msgid ""
+"Any terms entered below will be added to the data retrieved from the "
+"blacklist sources but only when the update is done (either manually or "
+"automatically). If you add information here, save and the run a manual "
+"update. One word or IP per line. It will match inside words, so &#8220;"
+"press&#8221; will match &#8220;WordPress&#8221;."
+msgstr ""
+"Los terminos introducidos a continuación se añadirán a los datos recuperados "
+"de las fuentes de la lista negra, pero solo cuando se realice la "
+"actualización (ya sea de forma manual o automática). <strong>Si agregas "
+"información aquí, guarda primero y ejecuta luego una actualización manual</"
+"strong>. Pon solo una palabra o IP por línea. También afectará las palabras "
+"contenidas dentro de otras, como &#8220;press&#8221; que está dentro de "
+"&#8220;WordPress&#8221;."
+
+#: comment-blacklist-updater.php:268
+msgid ""
+"Any terms entered below will be excluded from the blacklist updates but only "
+"when the update is done (either manually or automatically). <strong>If you "
+"add information here, save and the run a manual update</strong>. One word or "
+"IP per line. It will match inside words, so &#8220;press&#8221; will match "
+"&#8220;WordPress&#8221;."
+msgstr ""
+"Cualquier termino introducido a continuación se excluirá de las "
+"actualizaciones de la lista negra, pero solo cuando se realice la "
+"actualización (ya sea de forma manual o automática). <strong>Si agregas "
+"información aquí, guarda primero y ejecuta luego una actualización manual</"
+"strong>. Pon solo una palabra o IP por línea. También afectará las palabras "
+"contenidas dentro de otras, como &#8220;press&#8221; que está dentro de "
+"&#8220;WordPress&#8221;."
+
+#: comment-blacklist-updater.php:303
+msgid "Blacklist terms were updated successfully."
+msgstr "Los términos de la lista negra se actualizaron correctamente."
